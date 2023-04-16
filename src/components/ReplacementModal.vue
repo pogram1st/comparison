@@ -195,6 +195,10 @@ export default {
         width: 100%;
         display: flex;
         margin-bottom: 32px;
+        cursor: pointer;
+        &:hover {
+          background-color: var(--gray50);
+        }
         &:last-child {
           margin-bottom: 0;
         }

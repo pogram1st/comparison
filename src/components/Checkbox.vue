@@ -94,6 +94,7 @@ export default {
 }
 
 .custom_checkbox {
+  cursor: pointer;
   margin: 0;
   padding: 0;
   position: relative;
