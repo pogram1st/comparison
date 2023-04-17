@@ -81,4 +81,11 @@ export default {
     margin-top: 8px;
   }
 }
+.arrow-modal {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:active {
+    transform: scale(0.9);
+  }
+}
 </style>
